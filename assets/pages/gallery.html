@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/shared.css" />
+    <link rel="stylesheet" href="../css/gallery.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <img src="../img/Logo.webp" alt="logo" />
+            <span><i class="fa-solid fa-bars"></i></span>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item active">
+              <a href="../../index.html" data-name="index">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./about.html" data-name="about">about us</a>
+            </li>
+            <li class="nav-item">
+              <a href="./accomodation.html" data-name="accomodation"
+                >accomodation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./gallery.html" data-name="gallery">gallery</a>
+            </li>
+            <li class="nav-item submenu">
+              <a href="#">blog</a>
+              <span><i class="fa-solid fa-angle-down"></i></span>
+              <ul class="dropdown-menu">
+                <li class="nav-item">
+                  <a href="./blog.html">blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">blog details</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" data-name="contacts">contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header /-->
+    <!-- BreadCrumb -->
+    <section class="breadcrumb">
+      <div class="container">
+        <h2 class="breadcrumb-title">gallery</h2>
+        <div class="breadcrumb-info">
+          <a
+            class="breadcrumb-info-page"
+            data-name="home"
+            href="../../index.html"
+            >home</a
+          >
+          <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+          <a
+            class="breadcrumb-info-subPage"
+            data-name="about us"
+            href="./gallery.html"
+            >gallery</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- BreadCrumb /-->
+    <!-- Gallery -->
+    <section class="section gallery">
+      <div class="container">
+        <h2 class="section-title">Royal Hotel Gallery</h2>
+        <p class="section-desc">
+          Who are in extremely love with eco friendly system.
+        </p>
+        <div class="gallery-items"></div>
+      </div>
+      <div class="gallery-overlay">
+        <span class="close-icon"><i class="fa-solid fa-xmark"></i></span>
+        <img src="../img/gallery/05.jpg.webp" alt="" />
+        <span class="leftBtn"><i class="fa-solid fa-caret-left"></i></span>
+        <span class="rightBtn"><i class="fa-solid fa-caret-right"></i></span>
+      </div>
+    </section>
+    <!-- Gallery /-->
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="container">
+        <div class="footer-info">
+          <div class="footer-about">
+            <h6>About Agency</h6>
+            <p>
+              The world has become so fast paced that people don’t want to stand
+              by reading a page of information, they would much rather look at a
+              presentation and understand the message. It has come to a point
+            </p>
+          </div>
+          <div class="footer-links">
+            <h6>Navigation Links</h6>
+            <div>
+              <ul>
+                <li>home</li>
+                <li>feature</li>
+                <li>service</li>
+                <li>portfolio</li>
+              </ul>
+              <ul>
+                <li>team</li>
+                <li>pricing</li>
+                <li>blog</li>
+                <li>contact</li>
+              </ul>
+            </div>
+          </div>
+          <div class="newsletter">
+            <h6>Newsletter</h6>
+            <p>
+              For business professionals caught between high OEM price and
+              mediocre print and graphic output,
+            </p>
+            <form class="footer-form">
+              <div class="group-input">
+                <input type="emmail" placeholder="email address" />
+                <button class="btn">
+                  <i class="fa-solid fa-location-arrow"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="instafeed">
+            <h6>instafeed</h6>
+            <div class="instafeed-img">
+              <img src="../img/footer/footer-1.webp" alt="" />
+              <img src="../img/footer/footer-2.webp" alt="" />
+              <img src="../img/footer/footer-3.webp" alt="" />
+              <img src="../img/footer/footer-4.webp" alt="" />
+              <img src="../img/footer/footer-5.webp" alt="" />
+              <img src="../img/footer/footer-6.webp" alt="" />
+              <img src="../img/footer/footer-7.webp" alt="" />
+              <img src="../img/footer/footer-8.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            Copyright ©2022 All rights reserved | This template is made with
+            <span><i class="fa-solid fa-heart"></i></span> by Colorlib
+          </p>
+          <div class="footer-social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-dribbble"></i>
+            <i class="fa-brands fa-behance"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer /-->
+    <script src="../js/vendor/brands.min.js"></script>
+    <script src="../js/vendor/solid.min.js"></script>
+    <script src="../js/vendor/fontawesome.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/gallery.js"></script>
+  </body>
+</html>

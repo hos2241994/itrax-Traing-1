@@ -1,0 +1,7 @@
+@media (min-width: 992px) {
+  .booking-room {
+    width: 100%;
+    position: static;
+    transform: translateX(0);
+  }
+}
